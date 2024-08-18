@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26dde8aa-61c0-4d70-843d-097a10417b54" name="Changes" comment="" />
+    <list default="true" id="26dde8aa-61c0-4d70-843d-097a10417b54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeCotroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductCotroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +51,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test__branch&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/shop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -61,6 +67,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Views/Product" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +90,11 @@
       <updated>1723816788681</updated>
       <workItem from="1723816789720" duration="884000" />
       <workItem from="1723818043210" duration="6011000" />
-      <workItem from="1723900756507" duration="12316000" />
+      <workItem from="1723900756507" duration="12673000" />
+      <workItem from="1723975545366" duration="9653000" />
+      <workItem from="1723989599416" duration="448000" />
+      <workItem from="1723990871284" duration="86000" />
+      <workItem from="1723990958462" duration="76000" />
     </task>
     <servers />
   </component>

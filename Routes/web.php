@@ -1,12 +1,11 @@
 <?php
 
-
-require_once "Controllers/HomeCotroller.php";
+require_once "Controllers/ProductController.php";
+require_once "Controllers/CategoryController.php";
 require_once "Vendor/Router.php";
 
-
-Router::get("/", [HomeController::class, 'main']);
-Router::get("/basket", [HomeController::class, 'basket']);
+Router::get("/", [ProductController::class, 'product']);
+Router::get("/category", [CategoryController::class, 'category']);
 
 function route($url, $method): void
 {

@@ -1,36 +1,20 @@
 <?php
-
-require_once "DataBaseHandler.php";
-class Product
-{
-    private string $title;
+class Product {
+    public ?int $id = null;
+    private string $name;
     private int $price;
-    private int $count;
     private string $description;
-
-    public function getName(): string
+    private int $category_id;
+    public function __construct(private DatabaseHandler $db, $name, $price, $description, $category_id)
     {
-        return $this->title;
+        $this->name = $name;
+        $this->price = $price;
+        $this->description = $description;
+        $this->category_id = $category_id;
     }
-
-    public function getPrice(): int
-    {
-        return $this->price;
-    }
-
-    public function getCount(): int
-    {
-        return $this->count;
-    }
-
-    public function getDescription(): string
-    {
-        return $this->description;
-    }
-
     public static function getAllProducts($db): array
     {
-        $stmt = $db->query("SELECT * FROM products");
+        $stmt = $db->statement("SELECT * FROM products");
         return $stmt->fetchAll();
     }
 }
